@@ -1,0 +1,11 @@
+Given the following class:
+
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+complete the function
+
+which compares the two trees defined by TreeNodes a and b and returns true if they are equal in structure and in value and false otherwise.
